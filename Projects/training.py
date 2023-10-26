@@ -10,7 +10,8 @@ from nltk.stem import WordNetLemmatizer
 from keras.layers import Dense, Activation, Dropout 
 from keras.optimizers import SGD 
 
-
+nltk.download('punkt')
+nltk.download('wordnet')
 lemmatizer = WordNetLemmatizer() 
 
 # reading the json.intense file 
