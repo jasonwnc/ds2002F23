@@ -1,1 +1,3 @@
 chat GPT Examples
+
+index.html will go into a templates dir under your main app.py file for flask
